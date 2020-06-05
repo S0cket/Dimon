@@ -19,11 +19,7 @@ int main(void) {
 		}
 		else
 			flag = false;
-	}
-	file.close();
 
-	file.open("f.txt");
-	while (file >> c) {
 		int n = c - 'a';
 		if (n >= 0 && n < 6)
 			n2[n] ++;
